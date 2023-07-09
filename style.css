@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    padding: 1em;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.flex-container p:first-child {
+    display: inline-flex;
+    color: red;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+    margin-bottom: 0.1em;
+}
+
+.pioSolver, .proPokerTools {
+  white-space: pre-wrap;
+  word-break: break-word;
+  display: flex;
+  flex-wrap: wrap;
+}
